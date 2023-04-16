@@ -1,0 +1,38 @@
+#bouton{
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+    
+    
+}
+#bouton1{
+    background-image: linear-gradient(to right,#DE8E59, #C2956E, #E5D1B8);
+    font-size: 27px;
+    border: #C2956E;
+    font-family: 'Inconsolata', monospace;
+}
+#bouton2{
+    background-image: linear-gradient(to right,#D1BAA5, #F98826);
+    font-size: 27px;
+    border: #C2956E;
+    font-family: 'Inconsolata', monospace;
+}
+#bouton3{
+    background-image: linear-gradient(to right,#DE8E59, #9E8F66);
+    font-size: 27px;
+    border: #C2956E;
+    font-family: 'Inconsolata', monospace;
+}
+
+#button-tab{
+    font-size: 70px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+  
+}
+#button-tab-montant{
+    font-size: 60px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    margin-left: -43px;
+}
+ 

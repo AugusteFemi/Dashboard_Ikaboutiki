@@ -1,0 +1,34 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2">
+            <div class="icon">
+                <a routerLinkActive="Active" routerLink="/connexion"><span><i class='bx bx-power-off'></i></span></a>
+            </div>
+            
+            <nav class="side-bar">
+                <ul class="nav-link">
+                    <a routerLinkActive="Active" routerLink="/dashboard"><li class="link"><i class='bx bxs-dashboard' ></i>Tableau de bord</li></a>
+                <a routerLinkActive="Active" routerLink="/commandes"><li class="link"><i class='bx bx-cart'></i>Commandes</li></a>
+                  <a routerLinkActive="Active" routerLink="/produits"><li class="link"><i class='bx bxs-shopping-bag'></i>Produits</li></a>
+                 <a routerLinkActive="Active" routerLink="/ventes"> <li class="link"><i class='bx bxs-bus'></i>Ventes</li></a>
+                 <a routerLinkActive="Active" routerLink="/paie-ments"> <li class="link"><i class='bx bx-credit-card'></i>Paiements</li></a>
+                <a routerLinkActive="Active" routerLink="/parametres">  <li class="link"><i class='bx bx-cog' ></i>Paramètre</li></a>
+                </ul>
+                <div class="sc">
+                    <h6>Service Client</h6>
+                    <p class="text-sc">
+                        Tout sur vos client de vous préparer en consequence
+                    </p>
+                </div>
+                <div class="btn">
+                    <a routerLinkActive="Active" routerLink="/user"> <button><i class='bx bxs-user-circle'></i>Utilisateur</button></a>
+                </div>
+            </nav>
+        </div>
+        <div class="col-10">
+
+        <router-outlet></router-outlet>
+        
+        </div>
+    </div>
+</div>
